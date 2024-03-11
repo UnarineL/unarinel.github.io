@@ -103,7 +103,6 @@ body {
     padding-right: 0%;
     padding-left: 0%;
     display: inline-block;
-    vertical-align: top; /* Aligns the text to the top */
     max-width: calc(100% - 240px);
   }
   
