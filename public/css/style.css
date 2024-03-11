@@ -99,11 +99,8 @@ body {
     color: #FFF;
     font-size: 35px;
     letter-spacing: 8px;
-    padding-top: 500px;
     padding-right: 0%;
     padding-left: 0%;
-    display: inline-block;
-    max-width: calc(100% - 240px);
   }
   
   .ul-name{
