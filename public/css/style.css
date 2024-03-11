@@ -7,6 +7,7 @@ body, html{
     line-height: 1.8em;
     color:#667;
   }
+
   .card-img:hover{
     opacity: 0.8;
   }
@@ -33,7 +34,7 @@ body {
 }
 .container-top{
   height: 100%;
-  width: 100%;
+  max-width: 100%;
 }
   .btn:hover {
     background-color:rgb(18, 89, 182);
@@ -71,13 +72,28 @@ body {
     align-items: center;
     text-align: center;
     align-content: center;
-  
+    
   }
-  
+  .text-wrapper{
+    text-align: center;
+  }
+  .image-wrapped{
+    text-align: center;
+  }
+  .rounded-image{
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    margin: 5% 0 auto;
+  }
+
+  /*
   .image-wrap{
-    display: grid;
+    /*display: grid;
     place-items: center;
-    width: 300px;
+    /*width: 300px;
     height: 300px;
     padding: 2%;
     margin-left: auto;
@@ -85,22 +101,16 @@ body {
     border-radius: 50%;
     overflow: hidden;
     vertical-align: top;
-  }
+  }*/
   
 
   .photo_text {
     font-family: Montserrat;
-    position: absolute;
-    text-align: center;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
     color: #FFF;
     font-size: 35px;
     letter-spacing: 8px;
-    padding-right: 0%;
-    padding-left: 0%;
+    max-width: 100%;
+    margin-top: 3%;
   }
   
   .ul-name{
@@ -196,7 +206,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    overflow: auto;
   }
   hr {
     display: block;
