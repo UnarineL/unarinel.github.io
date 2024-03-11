@@ -192,13 +192,13 @@ body {
  }
   .block {
     padding-top: 70px;
-    height: 100%;
     width: auto;
     background-color:#001a1a;
     background-image: url('cyber1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow: auto;
   }
   hr {
     display: block;
