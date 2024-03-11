@@ -192,6 +192,7 @@ body {
  }
   .block {
     padding-top: 70px;
+    height: auto;
     width: auto;
     background-color:#001a1a;
     background-image: url('cyber1.jpg');
